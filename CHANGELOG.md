@@ -22,7 +22,7 @@ named controls in a single tile.
 - README: what the integration adds to the HomeKit Bridge route, and how it runs in step with
   Adjustable Bed.
 - `tools/sync_adjustable_bed.py` and a weekly workflow follow every Adjustable Bed release.
-- Vendor controls without a rule are grouped by keyword; [Supported beds](https://github.com/barloew/homekit_adjustable_bed/blob/main/docs/SUPPORTED_BEDS.md)
+- Vendor controls without a rule are grouped by keyword; [Supported beds](https://github.com/barloew/homekit-adjustable-bed/blob/main/docs/SUPPORTED_BEDS.md)
   lists all bed types of the checked release.
 - Brand icons for Home Assistant 2026.3+ and HACS.
 
