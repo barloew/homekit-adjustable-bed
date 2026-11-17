@@ -65,7 +65,7 @@ SECTION_TEXT = {
         "massage": ("Massage", "Sliders and/or switches for the available massage functions."),
         "lighting": (
             "Lighting",
-            "Switches and, where the light supports it, dimming sliders and colour controls. Shows the controllable bed and under-bed lights, and lets you register Home Assistant lights in the same HomeKit control.",
+            "Switches and, where the light supports it, dimming sliders and color controls. Shows the controllable bed and under-bed lights, and lets you register Home Assistant lights in the same HomeKit control.",
         ),
         "climate": ("Climate", "Fan, and Sleep Number cooling/heating and footwarming as a fan."),
         "firmness": ("Firmness", "Sleep Number firmness."),
@@ -256,7 +256,7 @@ def main(source: str) -> None:
                 for en, nl in SIDE_NL.items():
                     name = name.replace(en, nl)
             sections[group]["data"][key] = name
-        # colour switches stay in lighting (catalog lights)
+        # color switches stay in lighting (catalog lights)
         for key in (
             "light_level",
             "under_bed_light_level",
