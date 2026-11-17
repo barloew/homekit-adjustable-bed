@@ -67,8 +67,8 @@ queue first; *Stop* interrupts it. The buttons take their names from the section
 ### Lighting slots
 
 A single bed has two free slots: *Bed lighting* and *Under-bed lighting*. A combined bed has four:
-left and right of each. Every light has **Colour in HomeKit**: on gives a colour wheel and colour
-temperature (when the light supports them); the Home app then shows a colour button instead of
+left and right of each. Every light has **Color in HomeKit**: on gives a color wheel and color
+temperature (when the light supports them); the Home app then shows a color button instead of
 the caption under that light in the grouped tile. Off keeps the caption.
 
 ### Naming
@@ -86,7 +86,7 @@ Siri and HomeKit scenes use the inverted percentage too.
 ### Layout
 
 The Home app shows the first control top left and the others alphabetically by name, in rows of
-two. See [Home app behaviour](HOME_APP.md#order).
+two. See [Home app behavior](HOME_APP.md#order).
 
 ## Combined beds
 

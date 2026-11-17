@@ -1,4 +1,4 @@
-# Home app behaviour
+# Home app behavior
 
 Observed with iOS 17/18 and the Home app; Apple does not document most of it.
 
@@ -22,10 +22,10 @@ types, in rows of two. HAP has no order characteristic for these services (only 
 one); creation order is ignored. Choose the first control and the names to get the layout you
 want; the form shows the expected grid.
 
-## Colour lights
+## Color lights
 
-Under a colour light the grouped tile shows a colour button where other controls show their
-caption. Turn off *Colour in HomeKit* for that light to keep the caption.
+Under a color light the grouped tile shows a color button where other controls show their
+caption. Turn off *Color in HomeKit* for that light to keep the caption.
 
 ## Blinds sliders
 

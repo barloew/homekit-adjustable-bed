@@ -369,7 +369,7 @@ def render_beds_doc(snapshot: dict[str, Any]) -> str:
         f"## Controls ({len(rows)} entity keys)",
         "",
         "Per group of the form, the number of entity keys (side variants count separately) and "
-        "how they are recognised: by a rule, by a word in the key (a vendor control without a "
+        "how they are recognized: by a rule, by a word in the key (a vendor control without a "
         "rule, off by default) or only by its domain (off by default, under Settings).",
         "",
         "| Group | Keys | Rule | Keyword | Domain only | On by default |",

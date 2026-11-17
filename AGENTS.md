@@ -24,7 +24,7 @@ inside Home Assistant). Start with [docs/README.md](docs/README.md) and
 
 - Do not reach into Adjustable Bed internals (coordinator, controllers). Use only what it
   publishes: entities, their `translation_key`, devices and child devices.
-- Behaviour of the Home app is undocumented; record observations in
+- Behavior of the Home app is undocumented; record observations in
   [docs/HOME_APP.md](docs/HOME_APP.md) and do not present guesses as facts.
 - Stable identity: never change a control id or the creation order of existing HomeKit
   characteristics without a migration (`controls.migrate_renamed`, `iids.py`). Changed IIDs make

@@ -1,7 +1,7 @@
 # Detection
 
 Adjustable Bed only creates entities for what a bed can do. HomeKit Adjustable Bed reads those entities from
-the entity registry, recognises each by its `translation_key` (the `unique_id` key as fallback,
+the entity registry, recognizes each by its `translation_key` (the `unique_id` key as fallback,
 for `<address>_<key>` and combined beds' `pair_<hex>_<key>`) and maps it with the rules in
 `custom_components/homekit_adjustable_bed/detection.py`.
 
@@ -12,7 +12,7 @@ for `<address>_<key>` and combined beds' `pair_<hex>_<key>`) and maps it with th
 | Adjustable sections | Blinds slider: position number when available, else the cover | One slider per section and side |
 | Quick actions | Push button; Foundation Preset as a set of switches (one on) | Flat, presets, Memory, Stop |
 | Massage | Blinds slider for strength (0-10 in 10 % steps); push buttons | Strength sliders, on/off buttons |
-| Lighting | Lamp (colour if supported); switch; push button | Under-bed light or light level |
+| Lighting | Lamp (color if supported); switch; push button | Under-bed light or light level |
 | Climate | Fan; Sleep Number cooling/heating and footwarming as a fan with *Cool*/*Heat* switches | Fan level, climate |
 | Firmness | Blinds slider (Sleep Number) | Yes |
 | Settings | Switches and buttons | No |
@@ -37,7 +37,7 @@ Read-only sensors are never controls.
 
 ## Sliders and positions
 
-| Source | Behaviour |
+| Source | Behavior |
 |---|---|
 | Position number | Moves to the exact position (motion queue, one section at a time) |
 | Cover that reports its position | Moves in the right direction and stops at the target; repeats while the section progresses |
@@ -57,7 +57,7 @@ HomeKit instance IDs are stored per id, so adding or removing controls never cha
 ## Coverage
 
 [Supported beds](SUPPORTED_BEDS.md) lists every bed type of the Adjustable Bed release this
-version is checked against, how many of its entities are recognised by a rule, by keyword or by
+version is checked against, how many of its entities are recognized by a rule, by keyword or by
 domain only, and the controls without a rule. `tests/test_adjustable_bed_sync.py` checks that
 every entity of that release has a HomeKit type and a name. `tests/test_bed_families.py` models
 the entity sets of Okin/Keeson, Linak, Reverie/Octo, Jiecang split, combined-motor and Sleep

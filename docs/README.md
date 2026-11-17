@@ -5,7 +5,7 @@
 | [Configuration](CONFIGURATION.md) | Setup and options forms, naming, display, layout, pairing, actions |
 | [Detection](DETECTION.md) | Entity to HomeKit mapping, default exposure, combined and split beds |
 | [Supported beds](SUPPORTED_BEDS.md) | Bed types and control coverage of the checked Adjustable Bed release (generated) |
-| [Home app behaviour](HOME_APP.md) | What the Home app does with the accessory, and why the forms work as they do |
+| [Home app behavior](HOME_APP.md) | What the Home app does with the accessory, and why the forms work as they do |
 | [Architecture](ARCHITECTURE.md) | HAP accessory, modules, options model, motion and position handling |
 | [Development](DEVELOPMENT.md) | Environment, validation, translations, Adjustable Bed sync, releases |
 

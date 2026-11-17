@@ -20,7 +20,7 @@ CI (`.github/workflows/validate.yml`) runs the same plus HACS and hassfest valid
 | File | Covers |
 |---|---|
 | `test_detection.py`, `test_bed_families.py` | Mapping and defaults, per bed family |
-| `test_unified_form.py`, `test_config_flow.py`, `test_capabilities_color_iids.py` | Forms, options model, colour, IIDs |
+| `test_unified_form.py`, `test_config_flow.py`, `test_capabilities_color_iids.py` | Forms, options model, color, IIDs |
 | `test_accessory.py`, `test_cover_seek.py` | HomeKit channels, motion queue, cover seek |
 | `test_combined_bed.py`, `test_devices.py` | Combined beds with real child devices |
 | `test_rename_reload.py`, `test_pairing_flow.py` | HAP server with real sockets, pairing |
