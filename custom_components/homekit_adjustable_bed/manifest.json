@@ -1,6 +1,9 @@
 {
   "domain": "homekit_adjustable_bed",
   "name": "HomeKit Adjustable Bed",
+  "categories": [
+    "other_ecosystems"
+  ],
   "codeowners": [
     "@barloew"
   ],
