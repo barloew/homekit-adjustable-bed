@@ -3,12 +3,25 @@
 ## Unreleased
 - Release workflow: every version tag gets a GitHub release with the notes from this
   changelog (`tools/release_notes.py`).
-- Synced with Adjustable Bed v4.4.2.
-  - New bed types: Avocado Eco Base / CoasterSleep / Forty Winks / Milemont / Superior, BedJet
-    PowerLayer adjustable frame, Hush Base app (select product), Hush Base remote finder (RCRM
-    handset), Hush Base sleep sensor (HJ / SXB), Hush Base sleep sensor (RM / MM), MotoMotion app
-    (exact Bluetooth name).
-  - New controls named and grouped: 25 (settings 24, adjustable sections 1).
+- Synced with Adjustable Bed v5.0.0.
+  - New bed types: Adjustable bed app, Aging in Place / Dawn House app, Bedgear app, BetterLiving /
+    BetterLiving2 app, CheersSleep app, Comfort Enhancement 3 / Comfort Plus3 app,
+    ComfortBaseForBluetooth app, ComfyDS app, Dream Sense Bed, Enso Remote, Galaxy Bed Control app,
+    Instant Comfort app, KomfyD app, L2 Motion app, Linx app, Lunio Smart+ app, Luuna + app (Rise,
+    Rise Pro, Rise Pro Light), M Line app, Majestic Home app, MLILY Control app, MLILY Remote app,
+    N32 Motion Bed app, Nerum app, Okimiki app, OKIN Motion Bed app, OKIN Smart Sleep app,
+    OkinComfortBed II app, OkinComfortBed II N app, OrmatekTechnoSmart app, Paramount Bed Operation
+    (ベッド操作), Personal Comfort app, Power Bob Base app, Relax Motion app, Resident Adjustable Base
+    app, Richmat app, Richmat app sleep sensor, Rize Beds app, Rize Home app, Rize Remedy II app,
+    Saatva app, Sealy Posturematic, SILVERmotion Android (LOGICDATA), Sleep Assist, SleepEvolution
+    app, Smart Comfort app, Smart Comfort by SYNARGY app, SmartBed app (Okin receivers, Amada beds),
+    Snore Monitor app, Somos / SomosBeds app, SonicSleep / 소닉슬립 app, Super Colchones app (AFEG302,
+    AFEG350), Superior sleep app (SS350 / SS650), Symphony Sleep app, Symphony Sleep Sense app,
+    Ultramatic Smart Bed app, W.Silver / AMERICANSTAR / Bailey / TX sleep receiver, W.Silver
+    Products app (older version), アシステック / ASSISTEC / Yamada app.
+  - New controls named and grouped: 688 (adjustable sections 350, settings 185, massage 78, lighting
+    36, quick actions 25, climate 8, firmness 6).
+  - Timed adjustments for `axis_1`, `axis_2`, `axis_3`, `lumbar_tilt`, `both`, `neck`, `elevate`.
 
 ## 5.0.0
 First public release: one HomeKit accessory per Adjustable Bed device, with exact positions and
