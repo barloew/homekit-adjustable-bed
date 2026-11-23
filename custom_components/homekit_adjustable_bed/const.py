@@ -250,15 +250,22 @@ CONF_TIMED: Final = "timed_moves"
 TIMED_MAX_SECONDS: Final = 30.0  # ha-adjustable-bed accepts 100-30000 ms
 # Motors the timed_move action accepts.
 TIMED_MOTORS: Final = (
+    "axis_1",
+    "axis_2",
+    "axis_3",
+    "lumbar_tilt",
     "tv_lift",
     "back",
     "right_back",
     "legs",
     "head",
     "feet",
+    "both",
+    "neck",
     "tilt",
     "lumbar",
     "bed_height",
+    "elevate",
     "stair",
     "m1x12_part_1",
     "m1x12_part_2",

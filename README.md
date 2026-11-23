@@ -25,7 +25,7 @@ Available in English and Dutch.
 ## Requirements
 
 - Home Assistant 2026.9 or later
-- <!-- adjustable-bed-version -->[Adjustable Bed](https://github.com/kristofferR/ha-adjustable-bed) v4 with your bed set up (checked against v4.4.2, see [Supported beds](docs/SUPPORTED_BEDS.md))<!-- /adjustable-bed-version -->
+- <!-- adjustable-bed-version -->[Adjustable Bed](https://github.com/kristofferR/ha-adjustable-bed) v4 with your bed set up (checked against v5.0.0, see [Supported beds](docs/SUPPORTED_BEDS.md))<!-- /adjustable-bed-version -->
 - A free TCP port per bed (default 21070), reachable from your Apple home hub
 
 ## Installation
